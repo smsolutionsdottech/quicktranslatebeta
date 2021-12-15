@@ -1,0 +1,7 @@
+AuthName "quicktranslatebeta.smsolutions.tech statistics"
+AuthType Basic
+AuthUserFile /home/smsolutions/domains/quicktranslatebeta.smsolutions.tech/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

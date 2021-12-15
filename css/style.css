@@ -1,0 +1,119 @@
+.tranlated-secs { display: flex; width: 100%; margin: 0 0%; }
+.tranlated-secs>div { width: 100%; max-width: 48%; padding: 0; box-shadow: 0 12px 12px 1px #0001; margin: 0 1%; border-radius: 10px; overflow: hidden; }
+.tranlated-secs>div textarea { border: 0; padding: 60px 20px 20px; height: 230px !important; resize: none !important; font-size: 17px; border-radius: 14px !important; }
+.tranlated-secs textarea:focus { box-shadow: none; outline: none; resize: none !important }
+body { background: #f6f5f3 }
+.top-logo h1 { font-size: 27px; text-transform: uppercase; font-weight: 800; padding: 15px; text-align: center }
+.top-logo h1 strong { color: #4f8ef5 !important }
+.tranlate-input { background: #fff !important; display: flex; align-items: center; border-radius: 30px; overflow: hidden; max-width: 300px; box-shadow: 0 6px 14px 1px #0000000f; margin: auto; z-index: 2; position: relative; margin-bottom: 30px }
+.tranlate-input button { background: 0 0; border: 0; color: #333 !important; width: 100%; text-align: center !important; padding: 12px 12px 12px 27px }
+.tranlate-input .dropdown { width: 100%; border-right: 1px solid #eaeaea !important }
+.tranlator-wrap { padding: 50px 0; width: 100% }
+body { background: #f3f6fa }
+.tranlated-secs>div { position: relative } 
+.top-actions li { display: inline-block }
+.top-actions { position: absolute; top: 15px; left: 25px }
+.top-actions ul { padding: 0 }
+.top-actions li a { color: #4f8ef5 !important; font-size: 18px }
+.top-actions li { margin-right: 13px }
+.tranlate-input .dropdown { border: 0 !important }
+.tranlate-input button:hover, .tranlate-input button:focus { background: #f7f7f7 !important }
+.chnage-arrow { padding: 10px 15px; cursor: pointer }
+.tranlate-input { overflow: visible; max-width: 330px !important }
+
+.top-actions li a:hover { color: #333 !important }
+.bottom-suggestion ul { padding: 0; display: flex; margin: 0 -10px; flex-wrap: wrap }
+.bottom-suggestion ul li { list-style: none; flex: 0 0 33.33%; max-width: 33.33%; padding: 10px; }
+.suggest-box { box-shadow: 0 0 10px 3px #0001; padding: 15px; border-radius: 8px; background: #ffffff; }
+.suggest-box h2 { font-size: 19px; color: #b7b7b7; }
+.bottom-action { display: flex; align-items: center; margin-top: 20px }
+.bottom-action .ac-wrap { margin-right: 15px; cursor: pointer; }
+.ac-wrap i { color: #585858 }
+.bottom-suggestion { padding-bottom: 30px }
+.top-header { background: #fff; padding: 10px 0; }
+.head-inner { display: flex; align-items: center; justify-content: space-between; }
+.menuw li { list-style: none; display: inline-block; }
+.menuw  ul { margin: 0; }
+.menuw a { color: #333; font-size: 16px; text-transform: uppercase; font-weight: 500; }
+.menuw a i { margin-right: 4px; }
+.menuw li { margin-left: 32px; }
+.menuw li a:hover { text-decoration: none; color: #4f8ef5; }
+.lan-footer { padding: 10px 15px; background: #4f8ef5; }
+.lan-footer p { margin: 0; text-align: center; color: #fff; font-weight: 600; }
+.ac-wrap i { margin-right: 7px; }
+.ac-wrap { color: #9a9a9a; }
+.bottom-action .ac-wrap:hover, .bottom-action .ac-wrap:hover i { color: #4f8ef5; }
+@media ( max-width: 1199px){
+    .bottom-suggestion ul li {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+@media ( max-width: 991px){
+    .tranlator-wrap {padding: 30px 0; }
+
+}
+
+@media ( max-width: 767px){
+    .tranlated-secs>div {
+    max-width: 100%;
+    margin: 15px 0 !important;
+}
+.tranlate-input {
+    margin-bottom: -40px;
+}
+.tranlated-secs {
+    display: block;
+}
+
+.tranlated-secs>div {
+    max-width: 100%;
+    margin: 15px 0  !important;
+}
+
+.input-lan textarea {
+    padding-top: 80px !important;
+}
+
+.input-lan .top-actions {
+    top: 42px;
+}
+
+.ac-wrap {
+    text-align: center;
+}
+
+.tranlator-wrap {
+    padding-bottom: 10px;
+}
+
+.head-inner {
+    display: block;
+}
+
+.menuw li {
+    margin: 0px 14px !important;
+}
+
+.menuw ul {
+    padding: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;flex-wrap: wrap;
+}
+
+.menuw {
+    padding-bottom: 10px;
+}
+}
+
+@media ( max-width: 575px){
+    .bottom-suggestion ul li {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+}
+.dropdown-menu{
+    position: relative !important;
+}
